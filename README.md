@@ -1,11 +1,11 @@
 Backhoe Mechanism modelling and simulation project
-
+=================
 
 Table of contents
 =================
 
 <!--ts-->
-* [Home](#)
+* [Home](#Backhoe-Mechanism-modelling-and-simulation-project)
 * [Introduction](#Introduction)
 * [Assumptions and Specifications](#Assumptions-and-Specifications)
 * [Modeling](#Modeling)
@@ -26,3 +26,14 @@ considered. In order to create a model of such a system, the following tasks mus
 the bars of the backhoe were found in order to determine the rotation of the bar
 2. The coordinate of the triangle at each frame needed to be found in order to locate the
 location of the bar.
+
+Assumptions and Specifications
+=================
+Since the detail specification of a digger cannot be found easily online, the model chosen
+would be the one given in the lab manual as below:
+
+
+
+
+
+
