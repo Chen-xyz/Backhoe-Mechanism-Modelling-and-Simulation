@@ -32,9 +32,14 @@ location of the bar.**
 Assumptions and Specifications
 =================
 Since the detailed specifications of a real-life product cannot be found easily online, 
-the sample model is taking from the laboratory manual as shown below:
+the sample model is taken from the laboratory manual as shown below:
 <p align = 'center'>
 <img src = 'Images/P1.png' height = '492px'>
+  
+The measurement was taken based on the above picture. Where the first digit behind a letter
+indicates the triangle number, and the second digit indicates the angle or length number of each
+triangle. The specifications of the backhoe can be found at:
+
 
 
 
