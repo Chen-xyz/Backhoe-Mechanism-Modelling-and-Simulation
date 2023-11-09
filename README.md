@@ -51,17 +51,17 @@ one length varying bar(hydraulic bar) and 2 fixed triangles. length of the fixed
 changing, thus it would not be the main part of the modelling here. The moveable triangles
 can be viewed as triangles formed by 3 vectors which closure equation can be formed.
 
-**#𝑇𝑟𝑖𝑎𝑛𝑔𝑙𝑒 1 = 𝑙11 + 𝑙13 = 𝑙12**
+<h3>#𝑇𝑟𝑖𝑎𝑛𝑔𝑙𝑒 1 = 𝑙11 + 𝑙13 = 𝑙12</h3>
 
-**𝑇𝑟𝑖𝑎𝑛𝑔𝑙𝑒 2 = 𝑙21 + 𝑙23 = 𝑙22**
+<h3>𝑇𝑟𝑖𝑎𝑛𝑔𝑙𝑒 2 = 𝑙21 + 𝑙23 = 𝑙22</h3>
 
-**𝑇𝑟𝑖𝑛𝑔𝑙𝑒 3 = 𝑙31 + 𝑙33 = 𝑙32**
+<h3>𝑇𝑟𝑖𝑛𝑔𝑙𝑒 3 = 𝑙31 + 𝑙33 = 𝑙32</h3>
 
 This can be further broken down horizontally and vertically, and re-arrange:
 
-**−𝑙1𝑐𝑜𝑠𝜃1 − 𝑙3𝑐𝑜𝑠𝜃3 + 𝑙2𝑐𝑜𝑠𝜃2 = 0 E𝑞.1**
+<h3>−𝑙1𝑐𝑜𝑠𝜃1 − 𝑙3𝑐𝑜𝑠𝜃3 + 𝑙2𝑐𝑜𝑠𝜃2 = 0 E𝑞.1</h3>
 
-**−𝑙1𝑠𝑖𝑛𝜃1 − 𝑙3𝑠𝑖𝑛𝜃3 + 𝑙2𝑠𝑖𝑛𝜃3 = 0 E𝑞.2**
+<h3>−𝑙1𝑠𝑖𝑛𝜃1 − 𝑙3𝑠𝑖𝑛𝜃3 + 𝑙2𝑠𝑖𝑛𝜃3 = 0 E𝑞.2</h3>
 
 The numbers within the equation indicate the angle and length number of each
 triangle, which corresponds to the second digit on the diagram above.
@@ -72,14 +72,14 @@ Apriori Analysis
 Since the equations are simply 2 non-linear equations, where the inverse of its derivative can be easily found, the Gaussian elimination does not need to be used. The equations can simply
 solved by iterative methods such as Newton-Raphson's method:
 
-𝑥𝑛+1 = 𝑥𝑛 − (𝐷𝑓(𝑥𝑛
-))
-−1
-𝑓(𝑥𝑛)
+<h2>𝑥<sub>𝑛+1</sub> = 𝑥<sub>𝑛</sub> − (𝐷𝑓(𝑥<sub>𝑛</sub>))<sup>−1</sup>(𝑓(𝑥<sub>𝑛</sub>))</h2>
 
 In order to analyze using Newton-Raphson, an initial estimate is required. Since the
 problem is interested in one specific static moment of the mechanism, the initial estimate
 would be different depending on that specific moment. In this case, the initial estimate of
 theta is simply hand-measured for each triangle.
 
+Numerical Solution
+========================
+The simulation was perfomred through MATLAB, details can be find [here.](https://github.com/Chen-xyz/Backhoe-Mechanism-Modelling-and-Simulation/blob/91a2b9b1a8f2cd2229ec0ee3b6f6d55c920d9ffe/Numerial%20Solution/Newton_Raphson.m)
 
