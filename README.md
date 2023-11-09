@@ -11,8 +11,8 @@ Table of contents
 * [Modeling](#Modeling)
 * [Apriori Analysis](#Apriori-Analysis)
 * [Numerical solution](#Numerical-solution)
-* [Analysis](#Analysis)
 * [Result](#Result)
+* [3D Model](#3D-Model)
 <!--te-->
 
 Introduction
